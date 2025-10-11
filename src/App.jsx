@@ -1,7 +1,7 @@
 
 import './App.css'
 import Login from './components/Login'
-import Todo from './components/todo';
+import Todo from './components/Todo'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {db} from './config/firebase'
 import { useEffect, useState } from 'react';
