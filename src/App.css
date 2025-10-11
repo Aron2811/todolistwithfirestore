@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+body {
+  @apply bg-blue-100 min-h-screen;
+}
