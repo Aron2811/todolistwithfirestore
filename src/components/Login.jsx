@@ -17,7 +17,7 @@ const Login = () => {
    
    const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/todo"); // ✅ go to Todo after form login
+    navigate("/todo"); 
   };
 
   const signInWithGoogle = async () => {
