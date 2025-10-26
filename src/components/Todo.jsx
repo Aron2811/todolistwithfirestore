@@ -314,7 +314,7 @@ const upcomingTodos = todos
         case "upcoming":
   return (
     <div className="min-h-screen bg-gray-100 rounded-xl shadow-md p-4 sm:p-6 overflow-y-auto">
-      <h2 className="text-xl font-bold mb-4">Upcoming Deadlines <br /> Will display priority tag if the deadline is within 5 days</h2>
+      <h2 className="text-xl font-bold mb-4">Upcoming Deadlines <p className="text-sm font-light text-red-500">Will display priority tag if the deadline is within 5 days</p></h2>
 
       {upcomingTodos.length === 0 ? (
         <p className="text-gray-500">No upcoming tasks with deadlines.</p>
