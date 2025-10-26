@@ -49,7 +49,7 @@ const Login = () => {
 
    return (
     <div className='w-[430px] bg-white p-8 rounded-2xl shadow-lg'>
-      <h2 className="text-center text-red-600 font-bold">ONLY FOR PC <br /> Not responsive on Mobile, I made this only for PC not for mobile<br /> ONLY GOOGLE LOGIN WORKS FOR NOW</h2>
+      <h2 className="text-center text-red-600 font-bold">ONLY FOR PC <br /> Not responsive on Mobile, I made this only for PC not for mobile<br /> ONLY GOOGLE LOGIN WORKS FOR NOW CLICK THE GOOGLE ICON TO SIGN IN. DO NOT GO TO SIGN UP </h2>
       {/* Header title */}
       <div className='flex justify-center mb-4'>
         <h2 className='text-3xl font-semibold text-center'>{isLoginMode ? "Login" : "Sign up"}</h2>
